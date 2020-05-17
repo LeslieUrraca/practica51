@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+var vec=[1,2,23,15,33,4];
+  document.write('Vector inicial<br>');
+  var f;
+  for(f=0;f<vec.length;f++)
+  {
+    document.write(vec[f]+'<br>');
+  }
+  vec.splice(1,3,1);
+  document.write('Al vectos se le han borrados los valores igual a 2 y se le agregaron valores igual a 1<br>');
+  var f;
+  for(f=0;f<vec.length;f++)
+  {
+    document.write(vec[f]+'<br>');
+  }
+</script>
+  
+</body>
+</html>
